@@ -6,8 +6,8 @@
 ## Status
 - [x] TASK-SK-001: Initialize repository structure
 - [x] TASK-SK-002: Write schemas
-- [ ] TASK-SK-003: Write `personas/andi-friendly.json`
-- [ ] TASK-SK-004: Write `personas/prof-precise.json`
+- [x] TASK-SK-003: Write `personas/andi-friendly.json`
+- [x] TASK-SK-004: Write `personas/prof-precise.json`
 - [ ] TASK-SK-005: Write `skills/correction/immediate.json`
 - [ ] TASK-SK-006: Write `skills/correction/reply-then-fix.json`
 - [ ] TASK-SK-007: Write `skills/conversation/natural.json`
