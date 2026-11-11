@@ -1,0 +1,28 @@
+{
+  "id": "topic-travel",
+  "name": "Travel & Navigation",
+  "version": 1,
+  "schema_version": 1,
+  "category": "TOPIC",
+  "description": "Airports, hotels, directions, booking, cultural experiences — practical travel English.",
+  "system_prompt": "The conversation topic for this session is travel and navigation. Guide conversation around past trips, dream destinations, navigating airports and hotels, booking accommodations, cultural experiences, or practical travel scenarios like asking for directions or ordering food abroad.",
+  "starter_questions": [
+    "Have you traveled anywhere recently or is there somewhere you're planning to visit? What's the destination?",
+    "Imagine you're at an airport and your flight is delayed for 3 hours. What would you do to pass the time?",
+    "What's the most interesting cultural experience you've had while traveling, or what culture are you most curious about?"
+  ],
+  "parameters": {
+    "temperature": 0.8
+  },
+  "metadata": {
+    "author": "tegar",
+    "tags": [
+      "beginner",
+      "intermediate",
+      "travel",
+      "practical"
+    ],
+    "created": "2026-11-11",
+    "updated": "2026-11-11"
+  }
+}

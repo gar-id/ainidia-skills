@@ -1,0 +1,28 @@
+{
+  "id": "topic-daily-life",
+  "name": "Daily Life",
+  "version": 1,
+  "schema_version": 1,
+  "category": "TOPIC",
+  "description": "Everyday conversations: routines, food, weather, hobbies, weekend plans.",
+  "system_prompt": "The conversation topic for this session is everyday daily life. Guide the conversation around topics like morning routines, meals, hobbies, weekend activities, weather, local places, or anything the learner does regularly. Keep it casual and relatable.",
+  "starter_questions": [
+    "What does your typical morning look like? Do you have a routine you always follow?",
+    "What's your favorite meal to cook or eat? Do you prefer eating at home or going out?",
+    "What do you usually do on weekends? Do you have any hobbies you're really into right now?"
+  ],
+  "parameters": {
+    "temperature": 0.8
+  },
+  "metadata": {
+    "author": "tegar",
+    "tags": [
+      "beginner",
+      "intermediate",
+      "daily-life",
+      "casual"
+    ],
+    "created": "2026-11-11",
+    "updated": "2026-11-11"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "topic-tech",
+  "name": "Tech & Programming",
+  "version": 1,
+  "schema_version": 1,
+  "category": "TOPIC",
+  "description": "Technology, programming, AI, gadgets — for technically-minded learners.",
+  "system_prompt": "The conversation topic for this session is technology and programming. Guide the conversation around software development, AI, tools the learner uses, tech opinions, gadgets, or the future of technology. Use technical vocabulary naturally but don't assume specific expertise — ask what they work with.",
+  "starter_questions": [
+    "What kind of tech or programming do you work with most? What's your current stack or setup?",
+    "What's one technology or tool you've been excited about or curious to try recently?",
+    "Do you think AI tools like code assistants are changing the way developers work? What's your experience been?"
+  ],
+  "parameters": {
+    "temperature": 0.8
+  },
+  "metadata": {
+    "author": "tegar",
+    "tags": [
+      "intermediate",
+      "advanced",
+      "tech",
+      "programming",
+      "ai"
+    ],
+    "created": "2026-11-11",
+    "updated": "2026-11-11"
+  }
+}

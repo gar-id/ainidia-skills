@@ -1,0 +1,28 @@
+{
+  "id": "topic-business",
+  "name": "Business English",
+  "version": 1,
+  "schema_version": 1,
+  "category": "TOPIC",
+  "description": "Professional English: meetings, presentations, emails, negotiation, introductions.",
+  "system_prompt": "The conversation topic for this session is professional and business English. Guide conversation around workplace scenarios: introducing yourself professionally, discussing a project or presentation, negotiating, giving feedback, writing professional emails, or navigating workplace dynamics. Use professional vocabulary but keep the tone approachable.",
+  "starter_questions": [
+    "Can you give me a quick professional introduction of yourself — as if you were meeting a new colleague or client for the first time?",
+    "Imagine you need to present your current project or work to a senior manager in 2 minutes. What's the key message?",
+    "Have you ever had to give or receive critical feedback at work? How did you handle it?"
+  ],
+  "parameters": {
+    "temperature": 0.8
+  },
+  "metadata": {
+    "author": "tegar",
+    "tags": [
+      "intermediate",
+      "advanced",
+      "business",
+      "professional"
+    ],
+    "created": "2026-11-11",
+    "updated": "2026-11-11"
+  }
+}
