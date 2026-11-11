@@ -18,6 +18,6 @@
 - [x] TASK-SK-012: Write `skills/topics/tech-discussion.json`
 - [x] TASK-SK-013: Write `skills/topics/travel.json`
 - [x] TASK-SK-014: Write `skills/topics/business.json`
-- [ ] TASK-SK-015: Write `manifest.json`
+- [x] TASK-SK-015: Write `manifest.json`
 - [ ] TASK-SK-016: Write `README.md`
 - [ ] TASK-SK-017: Full repo validation pass

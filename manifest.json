@@ -1,0 +1,118 @@
+{
+  "formatVersion": 1,
+  "minAppVersion": "1.0.0",
+  "repository": {
+    "name": "Ainidia Default Skills",
+    "description": "Default personas, skills, and memory prompts for the Ainidia English speaking practice app",
+    "author": "tegar",
+    "url": "https://github.com/tegar/ainidia-skills"
+  },
+  "personas": [
+    {
+      "id": "andi-friendly",
+      "path": "personas/andi-friendly.json",
+      "version": 1,
+      "name": "Andi",
+      "description": "Warm and encouraging tutor who celebrates progress and makes learning fun"
+    },
+    {
+      "id": "prof-precise",
+      "path": "personas/prof-precise.json",
+      "version": 1,
+      "name": "Prof. Lin",
+      "description": "Precise, academically rigorous tutor who focuses on correctness and grammatical accuracy"
+    }
+  ],
+  "skills": [
+    {
+      "id": "correction-immediate",
+      "path": "skills/correction/immediate.json",
+      "version": 1,
+      "category": "CORRECTION",
+      "name": "Immediate Correction",
+      "description": "Corrects errors right after each message — no conversation, pure drill mode",
+      "requiredFor": [
+        "MODE_1"
+      ]
+    },
+    {
+      "id": "correction-reply-then-fix",
+      "path": "skills/correction/reply-then-fix.json",
+      "version": 1,
+      "category": "CORRECTION",
+      "name": "Reply Then Correct",
+      "description": "Replies naturally first, then shows corrections in a separate section",
+      "requiredFor": [
+        "MODE_2"
+      ]
+    },
+    {
+      "id": "conversation-natural",
+      "path": "skills/conversation/natural-flow.json",
+      "version": 1,
+      "category": "CONVERSATION",
+      "name": "Natural Conversation",
+      "description": "Converses naturally with no corrections during the session",
+      "requiredFor": [
+        "MODE_3"
+      ]
+    },
+    {
+      "id": "feedback-session-report",
+      "path": "skills/feedback/session-report.json",
+      "version": 1,
+      "category": "FEEDBACK",
+      "name": "Session Feedback Report",
+      "description": "Generates a comprehensive end-of-session feedback report with score and recommendations"
+    },
+    {
+      "id": "feedback-mistake-analysis",
+      "path": "skills/feedback/mistake-analysis.json",
+      "version": 1,
+      "category": "ANALYSIS",
+      "name": "Mistake Pattern Analyzer",
+      "description": "Detects recurring mistake patterns for long-term user persona tracking"
+    },
+    {
+      "id": "topic-daily-life",
+      "path": "skills/topics/daily-life.json",
+      "version": 1,
+      "category": "TOPIC",
+      "name": "Daily Life",
+      "description": "Everyday conversations: routines, food, weather, hobbies, weekend plans"
+    },
+    {
+      "id": "topic-tech",
+      "path": "skills/topics/tech-discussion.json",
+      "version": 1,
+      "category": "TOPIC",
+      "name": "Tech & Programming",
+      "description": "Technology, programming, AI, gadgets — for technically-minded learners"
+    },
+    {
+      "id": "topic-travel",
+      "path": "skills/topics/travel.json",
+      "version": 1,
+      "category": "TOPIC",
+      "name": "Travel & Navigation",
+      "description": "Airports, hotels, directions, booking — practical travel English"
+    },
+    {
+      "id": "topic-business",
+      "path": "skills/topics/business.json",
+      "version": 1,
+      "category": "TOPIC",
+      "name": "Business English",
+      "description": "Professional English: meetings, presentations, emails, negotiation"
+    }
+  ],
+  "memory": [
+    {
+      "id": "memory-summarizer",
+      "path": "memory/summarizer.json",
+      "version": 1,
+      "name": "Session Summarizer",
+      "description": "Summarizes completed conversations into compact episodic memory entries"
+    }
+  ]
+}
