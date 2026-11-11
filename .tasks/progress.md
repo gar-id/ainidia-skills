@@ -8,9 +8,9 @@
 - [x] TASK-SK-002: Write schemas
 - [x] TASK-SK-003: Write `personas/andi-friendly.json`
 - [x] TASK-SK-004: Write `personas/prof-precise.json`
-- [ ] TASK-SK-005: Write `skills/correction/immediate.json`
-- [ ] TASK-SK-006: Write `skills/correction/reply-then-fix.json`
-- [ ] TASK-SK-007: Write `skills/conversation/natural.json`
+- [x] TASK-SK-005: Write `skills/correction/immediate.json`
+- [x] TASK-SK-006: Write `skills/correction/reply-then-fix.json`
+- [x] TASK-SK-007: Write `skills/conversation/natural.json`
 - [ ] TASK-SK-008: Write `skills/feedback/session-report.json`
 - [ ] TASK-SK-009: Write `skills/feedback/mistake-analysis.json`
 - [ ] TASK-SK-010: Write `memory/summarizer.json`
