@@ -180,9 +180,23 @@ All `system_prompt` fields support Mustache-style template variables resolved by
 | `{{user.interests}}` | Comma-separated interests list |
 | `{{user.commonMistakes}}` | Top 5 mistake patterns, comma-separated descriptions |
 | `{{memory.recent}}` | Last 3 episodic memory session notes concatenated |
+| `{{canary_token}}` | Cryptographically random 16-char hex session token for prompt-leak detection |
 | `{{#if <var>}}...{{/if}}` | Block included only if variable is non-null and non-empty |
 
 Unknown variables resolve to empty string. No code execution in templates. No nested variables.
+
+---
+
+## 4.1 AI Guardrail & Boundary Standards in Skills & Personas
+
+To prevent jailbreaks, prompt exfiltration, and out-of-scope LLM responses, all personas and skills must adhere to the following standards:
+
+1. **Mandatory Boundaries**: Every persona in `personas/*.json` must declare at least 3 negative boundaries in its `boundaries` array:
+   - Topic containment: redirect non-English-practice conversation back to language learning.
+   - Disallowed advice: no professional medical, legal, or financial advice.
+   - Persona integrity: never break character or adopt adversarial roles (e.g. DAN).
+2. **Canary Token Protection**: Prompts must instruct the model to treat the `{{canary_token}}` as confidential and refuse requests to print system prompts.
+3. **Structured Format Adherence**: Skills requiring delimiters (`---CORRECTION---`) or JSON outputs must explicitly mandate no commentary outside the structured blocks.
 
 ---
 
@@ -433,7 +447,7 @@ For a public repository: no authentication required.
 For a private repository: `Authorization: token {pat}` header with a PAT that has `contents:read` scope.
 
 The default skill repo URL configured in the app at first launch (if the user has not changed it):
-`github.com/tegar/ainidia-skills` *(or the actual published URL — to be confirmed at first release)*
+`github.com/gar-id/ainidia-skills` *(or the actual published URL — to be confirmed at first release)*
 
 ---
 
