@@ -11,7 +11,10 @@
 - [x] TASK-SK-005: Write `skills/correction/immediate.json`
 - [x] TASK-SK-006: Write `skills/correction/reply-then-fix.json`
 - [x] TASK-SK-007: Write `skills/conversation/natural.json`
-- [ ] TASK-SK-008: Write `skills/feedback/session-report.json`
+- [x] TASK-SK-008: Write `skills/feedback/session-report.json`
+- [x] TASK-SK-009: Write `skills/feedback/mistake-analysis.json`
+- [x] TASK-SK-010: Write `memory/summarizer.json`
+- [ ] TASK-SK-011: Write `skills/topics/daily-life.json`
 - [ ] TASK-SK-009: Write `skills/feedback/mistake-analysis.json`
 - [ ] TASK-SK-010: Write `memory/summarizer.json`
 - [ ] TASK-SK-011: Write `skills/topics/daily-life.json`
