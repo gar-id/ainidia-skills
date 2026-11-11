@@ -1,6 +1,6 @@
 # Ainidia Skills Repository (`ainidia-skills`)
 
-Content catalog for [Ainidia](https://github.com/ainidia/ainidia), an Android English speaking practice application.
+Content catalog for [Ainidia](https://github.com/gar-id/ainidia), an Android English speaking practice application.
 
 This repository is **content-only** (JSON and JSON Schema) — it contains no Kotlin or Android code. It defines the personas, skills (correction modes, conversation flows, feedback generators), topics, and memory summarizers that power Ainidia's AI conversational engine.
 
@@ -43,8 +43,8 @@ mkdir -p workspace
 cd workspace
 
 # Clone both repositories
-git clone https://github.com/ainidia/ainidia.git
-git clone https://github.com/ainidia/ainidia-skills.git
+git clone https://github.com/gar-id/ainidia.git
+git clone https://github.com/gar-id/ainidia-skills.git
 ```
 
 To sync local skill definitions into the Android app assets:
